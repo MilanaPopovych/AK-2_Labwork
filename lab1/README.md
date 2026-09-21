@@ -98,7 +98,7 @@
 ```
 *Результат:*
 
-![]()
+![task1_1.png](img/task1_1.png)
 
 *Історія другого терміналу:*
 ```sh
@@ -129,9 +129,9 @@ cat "$OUTPUT_FILE"
 ```
 *Результати тестування:*
 
-![Screenshot From 2026-09-22 02-06-20.png](img/Screenshot From 2026-09-22 02-06-20.png)
+![1task1_2.png](img/1task1_2.png)
 
-![Screenshot From 2026-09-22 02-06-04.png](img/Screenshot From 2026-09-22 02-06-04.png)
+![2task1_2.png](img/2task1_2.png)
 
 ---
 ## Висновки
