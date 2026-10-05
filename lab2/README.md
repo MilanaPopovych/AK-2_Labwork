@@ -40,16 +40,19 @@
    24  history > history.txt
 ```
 
-Код файлу main.cpp
+*Код файлу main.cpp*:
+
 <img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-06.png" width="800">
 
-Код файлу Makefile
+*Код файлу Makefile*:
+
 <img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-37.png" width="800">
 
-Код файлу CMakeLists.txt
+*Код файлу CMakeLists.txt*:
+
 <img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-51.png" width="800">
 
 ---
 
 ## Висновки
-Під час виконання лабораторної роботи було 
+Під час виконання лабораторної роботи було освоєно практичні навички автоматизації збирання ПЗ мовою С++ за допомогою CMake та генератору Ninja.
