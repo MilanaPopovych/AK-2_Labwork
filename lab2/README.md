@@ -42,15 +42,15 @@
 
 *Код файлу main.cpp*:
 
-<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-06.png" width="800">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-06.png" width="600">
 
 *Код файлу Makefile*:
 
-<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-37.png" width="800">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-37.png" width="600">
 
 *Код файлу CMakeLists.txt*:
 
-<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-51.png" width="800">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/61f62fb37f938e34947e52e3c7daf43d23eaecd3/lab2/img/Screenshot%20From%202026-10-05%2018-59-51.png" width="600">
 
 ---
 
