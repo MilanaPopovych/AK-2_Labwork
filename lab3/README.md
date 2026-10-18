@@ -209,7 +209,7 @@ $ qemu-system-arm -kernel _install/boot/zImage -initrd rootfs.cpio.gz \
 
 Результат:
 
-<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/e4c22b3b6620e8b20d114d595c2b9ec8104362d2/lab3/img/Screenshot%20From%202026-10-18%2013-55-51.png" width="700">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/e4c22b3b6620e8b20d114d595c2b9ec8104362d2/lab3/img/Screenshot%20From%202026-10-18%2013-55-51.png" width="800">
 
 ---
 
