@@ -127,7 +127,8 @@ clean:
 obj-m := hello.o
 ```
 
-Результати перевірки роботи модуля в середовищі QEMU:
+### Результати перевірки роботи модуля в середовищі QEMU
+
 1. Тестування з нульовим параметром howmany (попередження KERN_WARNING)
 
 <img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/e37748e2dcc534dfc19710e0a5f8935eaa7e8122/lab4/img/Screenshot%20From%202026-11-01%2021-05-46.png" width="600">
