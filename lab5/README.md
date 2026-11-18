@@ -7,8 +7,8 @@
 ---
 ## Розділи
 
-[Виконання завдання]() \
-[Результати тестування]()
+[Виконання завдання](https://github.com/MilanaPopovych/AK-2_Labwork/blob/main/lab5/README.md#%D0%B2%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F) \
+[Результати тестування](https://github.com/MilanaPopovych/AK-2_Labwork/blob/main/lab5/README.md#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D1%96%D1%80%D0%BA%D0%B8-%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F-%D0%B2-%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D1%96-qemu)
 
 ---
 ## Хід роботи
@@ -24,7 +24,7 @@ $ export KDIR=$HOME/repos/linux/stable
 Перевіряємо встановлення шляхів за допомогою `echo`
 
 Результат виконання команди: \
-<img src="" width="600">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/2d991e99ea922e7f00e43993d062814f06b08dc3/lab5/img/Screenshot%20From%202026-11-18%2021-05-46.png" width="600">
 
 Для розробки та тестування модуля ядра в середовищі QEMU було використано робочий каталог test2 з конфігураційними файлами Kbuild, Makefile. 
 
@@ -213,29 +213,34 @@ clean:
 ```
 
 __*4. Крос-компіляція, перевірка метаданих модулів*__ \
-Цей етап складається з демонстрації результатів збірки модулів ядра командою `make` (в результаті чого створено файли об'єктів ядра - *hello1.ko*, *hello2.ko* та файл таблиці символів *Module.symvers*) та перевірки інформації про скомпільовані модулі (утиліта `modinfo`):
+Цей етап складається з демонстрації результатів збірки модулів ядра командою `make` (в результаті чого створено файли об'єктів ядра: *hello1.ko*, *hello2.ko* та файл таблиці символів *Module.symvers*) та перевірки інформації про скомпільовані модулі (утиліта `modinfo`):
 
-<img src="" width="600">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/2d991e99ea922e7f00e43993d062814f06b08dc3/lab5/img/Screenshot%20From%202026-11-18%2017-37-01.png" width="600">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/2d991e99ea922e7f00e43993d062814f06b08dc3/lab5/img/Screenshot%20From%202026-11-18%2017-37-34.png" width="600">
 
 ### Результати перевірки роботи модуля в середовищі QEMU
 
 Перевірка залежностей між модулями:
 
-<img src="" width="600">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/2e77606a98e8da98247057cf34cb75788898c9a8/lab5/img/Screenshot%20From%202026-11-18%2021-12-36.png" width="600">
 
-Тестування граничних значень параметра howmany:
+Тестування значень параметра howmany:
 
-1. Тестування з нульовим параметром howmany (попередження pr_warn без виклику print_hello())
+1. Тестування з базовим значенням (1) параметра (завантаження модулів ядра):
 
-<img src="" width="600">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/6322091bc752b3b7d6002b937a74337408696fab/lab5/img/Screenshot%20From%202026-11-18%2016-53-35.png" width=600>
 
-2. Тестування з певним придатним значенням параметру howmany з перевіркою значення параметра в файловій системі sysfs та часових міток
+2. Тестування з нульовим параметром howmany (попередження pr_warn без виклику print_hello())
 
-<img src="" width="600">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/2e77606a98e8da98247057cf34cb75788898c9a8/lab5/img/Screenshot%20From%202026-11-18%2021-14-29.png" width="600">
 
-3. Тестування з певним недопустимим значенням параметру howmany (pr_err) та перевіркою часових міток
+3. Тестування з певним придатним значенням параметру howmany з перевіркою значення параметра в файловій системі sysfs та часових міток
 
-<img src="" width="600">
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/6322091bc752b3b7d6002b937a74337408696fab/lab5/img/Screenshot%20From%202026-11-18%2016-54-16.png" width="600">
+
+4. Тестування з певним недопустимим значенням параметру howmany (pr_err) та перевіркою часових міток
+
+<img src="https://github.com/MilanaPopovych/AK-2_Labwork/blob/6322091bc752b3b7d6002b937a74337408696fab/lab5/img/Screenshot%20From%202026-11-18%2016-55-15.png" width="600">
 
 ---
 
